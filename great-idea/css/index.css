@@ -154,7 +154,6 @@ h5 {
   max-width: 1000px;
   margin: auto;
   padding: 5px;
-  border: 15px solid;
 }
 
 .navparent {
@@ -182,7 +181,7 @@ a:hover {
   text-decoration-color: aquamarine;
 }
 
-#logo {
+.logo {
   padding: 10px 10px;
 }
 
@@ -248,12 +247,10 @@ button {
 
 .features {
   padding: 10px 5px 15px 5px;
-  border: solid lime;
 }
 
 .about {
   padding: 10px 5px 15px 5px;
-  border: solid pink;
 }
 
 .middle-img {
@@ -288,4 +285,40 @@ button {
 .copyright {
   margin: 40px 0;
   text-align: center;
+}
+
+/* START OF SERVICES.HTML */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navservices {
+  display: flex;
+  justify-content: space-between;
+}
+
+#servicesnav a {
+  text-align: left;
+  width: 100%;
+}
+
+.servicessection {
+  display: flex-wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.services-header-img {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.main-box-section {
+  display: flex-wrap;
+  justify-content: space-evenly;
+  border: 2px solid black;
 }
