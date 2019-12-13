@@ -154,36 +154,36 @@ h5 {
   max-width: 1000px;
   margin: auto;
   padding: 5px;
+  border: 15px solid;
 }
 
-nav ul li {
-  display: inline-block;
+.navparent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  display: flex;
   margin-top: 5px;
-}
-
-header nav ul {
-  width: 775px;
-}
-
-.nav-item {
-  display: inline-block;
+  margin-bottom: 5px;
   padding: 16px 32px;
   cursor: pointer;
   color: #ccc;
 }
 
-.nav-item:hover {
+header nav {
+  display: flex;
+  width: 70%;
+}
+
+a:hover {
   color: #666;
+  text-decoration-color: aquamarine;
 }
 
-header nav,
-header img {
-  display: inline-block;
-}
-
-.logo {
-  transform: translateY(25%);
-  display: inline-block;
+#logo {
+  padding: 10px 10px;
 }
 
 button {
@@ -192,31 +192,26 @@ button {
   border: 1px solid black;
 }
 
-.main-section {
-  display: inline-block;
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
   width: 100%;
-  text-align: center;
-  border-bottom: 1px solid black;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .left-section {
-  display: inline-block;
   text-align: center;
-  margin-top: 20px;
-  padding-top: 60px;
-  padding-bottom: 50px;
-  vertical-align: top;
-  transform: translateX(-20%);
+  margin: 30px;
+  padding: 35px;
+  margin-left: 80px;
+  justify-content: center;
 }
 
 .right-section {
-  display: inline-block;
-  transform: translateX(30%);
-  margin-left: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: auto;
+  padding-top: 20px;
 }
 
 .button {
@@ -224,7 +219,7 @@ button {
   font-size: 15px;
   cursor: pointer;
   border: 2px solid black;
-  padding: 10px 40px;
+  padding: 5px 40px;
   margin-top: 5px;
 }
 
@@ -238,22 +233,25 @@ button {
 .title,
 .title-on,
 .title-demand {
-  font-size: 80px;
+  font-size: 75px;
+  line-height: 0.8;
+  vertical-align: middle;
 }
 
-.section1 {
+.top-section {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-top: 1px solid black;
 }
 
-.Features {
+.features {
   display: inline-block;
   padding: 10px 5px 15px 0;
   width: 49%;
 }
 
-.About {
+.about {
   display: inline-block;
   padding: 10px 5px 15px 5px;
   width: 49%;
